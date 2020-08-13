@@ -6,7 +6,7 @@ What is different?
 
 - Added absolute path resolving
 - Upgraded Typscript and React native version
-- Fixed VsCode Intellisence and Auto-import
+- Fixed VsCode Intellisense and Auto-import
 - A bit different structure     
   - apps live under **/apps**   
   - other utility packages live under **/packages**
