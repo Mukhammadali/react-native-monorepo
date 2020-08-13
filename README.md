@@ -6,7 +6,9 @@ What is different?
 
 - Added absolute path resolving
 - Upgraded Typscript and React native version
-- Fixed VsCode Intellisense and Auto-import
+- Fixed VsCode Intellisense (CMD+MOUSE CLICK now opens correct file instead of d.ts files)
+- Fixed VSCode Auto importing based on typings.   
+  - now VSCode can suggest and import from correct path while you are writing your code 
 - A bit different structure     
   - apps live under **/apps**   
   - other utility packages live under **/packages**
