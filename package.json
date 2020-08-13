@@ -9,11 +9,12 @@
     ]
   },
   "scripts": {
-    "android": "yarn workspace mobile android",
+    "android": "yarn workspace @dev/mobile android",
     "compile": "tsc -b --incremental",
-    "ios": "yarn workspace mobile  ios",
-    "studio": "yarn workspace mobile studio",
-    "xcode": "yarn workspace mobile xcode"
+    "ios": "yarn workspace @dev/mobile ios",
+    "web": "yarn workspace @dev/web start",
+    "studio": "yarn workspace @dev/mobile studio",
+    "xcode": "yarn workspace @dev/mobile xcode"
   },
   "dependencies": {
     "react-native": "*"

@@ -1,4 +1,16 @@
 # React Native [Web] + Monorepo
+
+### THIS REPOSITORY IS BUILT ON TOP OF [react-native-web-monorepo](https://github.com/brunolemos/react-native-web-monorepo). Huge thanks to Brunolemos! 
+ 
+What is different?
+
+- Added absolute path resolving
+- Upgraded Typscript and React native version
+- Fixed VsCode Intellisence and Auto-import
+- A bit different structure     
+  - apps live under **/apps**   
+  - other utility packages live under **/packages**
+
 ## 100% code sharing between Web, iOS and Android
 
 This is the source code from [this tutorial](https://dev.to/brunolemos/tutorial-100-code-sharing-between-ios-android--web-using-react-native-web-andmonorepo-4pej).
@@ -10,14 +22,14 @@ This is the source code from [this tutorial](https://dev.to/brunolemos/tutorial-
 
 _Requirements: [React Native](https://facebook.github.io/react-native/docs/getting-started.html#native) (last tested on react-native@0.61)_
 
-  - `$ git clone git@github.com:brunolemos/react-native-web-monorepo.git`
-  - `$ cd react-native-web-monorepo`
+  - `$ git clone https/github.com/Mukhammadali/react-native-monorepo.git`
+  - `$ cd react-native-monorepo`
   - `$ yarn`
   - `$ cd apps/mobile/ios`
   - `$ pod install`
   - `$ cd -`
-  - `$ yarn workspace web start`
-  - `$ yarn workspace mobile start`
+  - `$ yarn ios`
+  - `$ yarn web`
   - Run the project
     - [iOS] Via Xcode
       - `yarn xcode` (open the project on Xcode)
@@ -31,24 +43,7 @@ _Requirements: [React Native](https://facebook.github.io/react-native/docs/getti
 
 ### Author
 
-Follow me on Twitter: [@brunolemos](https://twitter.com/brunolemos)<br/>
+Follow me on Twitter: [@_mukhammadali](https://twitter.com/_mukhammadali)<br/>
 
-<a href="https://twitter.com/brunolemos" target="_blank"><img src="https://github.com/brunolemos.png?size=100" height="100" /></a>
+<a href="https://twitter.com/mukhammadali" target="_blank"><img src="https://github.com/Mukhammadali.png?size=100" height="100" /></a>
 
-
-## Who is using this on production
-
-Check out [DevHub](https://github.com/devhubapp/devhub).
-The main difference is that it supports Desktop (Electron) in addition to Web, iOS and Android.
-
-![DevHub Desktop](https://user-images.githubusercontent.com/619186/63945240-59d40000-ca49-11e9-98c1-353225f8dcf6.jpg)
-
-![DevHub Menubar](https://github.com/devhubapp/devhub/raw/master/landing/static/screenshots/devhub-desktop-menubar-banner.jpg)
-
-<p align="center">
-  <img alt="DevHub Mobile - Notifications" height="620" src="https://github.com/devhubapp/devhub/raw/master/landing/static/screenshots/iphone-notifications-dark.jpg" />
-  <img alt="DevHub Mobile - Notification Filters" height="620" src="https://github.com/devhubapp/devhub/raw/master/landing/static/screenshots/iphone-notifications-filters-dark.jpg" />
-  <img alt="DevHub Mobile - Events" height="620" src="https://github.com/devhubapp/devhub/raw/master/landing/static/screenshots/iphone-events-dark.jpg" />
-</p>
-
-<br/>
