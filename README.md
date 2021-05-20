@@ -5,7 +5,6 @@
 What is different?
 
 - Added absolute path resolving
-- Upgraded Typscript and React native version
 - Fixed VsCode Intellisense (CMD+MOUSE CLICK now opens correct file instead of d.ts files)
 - Fixed VSCode Auto importing based on typings.   
   - now VSCode can suggest and import from correct path while you are writing your code 
