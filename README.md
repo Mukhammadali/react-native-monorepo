@@ -1,6 +1,6 @@
 # React Native [Web] + Monorepo
 
-### THIS REPOSITORY IS BUILT ON TOP OF [react-native-web-monorepo](https://github.com/brunolemos/react-native-web-monorepo). Huge thanks to Brunolemos! 
+### This repository was inspired by [react-native-web-monorepo](https://github.com/brunolemos/react-native-web-monorepo). Huge thanks to Brunolemos! 
  
 What is different?
 
